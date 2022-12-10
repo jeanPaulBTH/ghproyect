@@ -6,6 +6,12 @@ margin:0;
 padding:0;    
 }
 
+a
+{
+text-decoration:none;
+cursor:pointer;    
+}
+
 header
 {
 width:100%;
@@ -20,5 +26,15 @@ justify-content:flex-end;
 
 nav .nav-right-section
 {
-    
+width:250px;
+height:0 auto;
+display:flex;
+list-style:none;
+align-items:center;    
+}
+
+nav .nav-right-section a
+{
+color:black;
+margin-right:10px;    
 }
